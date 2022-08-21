@@ -5,7 +5,13 @@
 }
 
 body{
-    background-color: whitesmoke;
+    background-color:RGB(221, 226, 231);
+}
+.navbar1{
+    background-color:RGB(221, 226, 231);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
 }
 .navbar{
     background: #f2f2f2;
@@ -35,6 +41,7 @@ body{
     margin: 0 20px 0 0;
     font-family:Arial, Helvetica, sans-serif;
     margin-top: -4px;
+   
 }
 .sectionB h1{
     font-size: 3.75rem;
@@ -64,6 +71,7 @@ body{
     pointer-events: initial;
     color: black;
     font-family: 'Times New Roman', Times, serif;
+    margin-left: 5px;
 }
 .sectionB .button button{
     background-color: orangered;
@@ -78,13 +86,186 @@ body{
     margin: 38px auto 0 0;
     cursor: pointer;
 }
-.sectionC .sectionA1{
-    background: #ec3b09;
-    display:inline-block;
-    text-align: center;
-    z-index: 1;
-    flex-direction: column;
+ 
+ .sectionA1{
+    background: orangered;
+    display: inline-block;
+   
+    
 }
-.sectionC .sectionA1 img{
-    z-index: -1;
+ .sectionA1  p{
+ text-transform: capitalize;
+ font-style: italic;
+ font-weight: 400;
+ text-align: center;
+ color: white;
+}
+ 
+ .sectionA1 h1{
+    margin-left: 0;
+    margin-right: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.25rem;
+    margin: 30px 2px 0;
+    line-height: 1.1;
+    padding: 0;
+    display: block;
+    color: white;
+}
+ .sectionA1 .button2 button{
+    background-color: #ffffff !important;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-top: 20px;
+    display: table;
+    cursor: pointer;
+    border: 0 none transparent;
+    outline-width: 0;
+    font-style: initial;
+    white-space: nowrap;
+    user-select: none;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 0;
+    align-self: flex-start;
+    color: #ec3b09;
+    text-transform: uppercase;
+}
+.sectionA1 .button2 button:hover{
+    color: red;
+}
+.sectionA1 a{
+    text-decoration: none;
+}
+
+ .sectionA2{
+    background: #fb6f00;
+    display: inline-block;
+   
+}
+ .sectionA2 p{
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+ .sectionA2 h1{
+    margin-left: 0;
+    margin-right: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.25rem;
+    margin: 30px 2px 0;
+    line-height: 1.1;
+    padding: 0;
+    display: block;
+    color: white;
+}
+ .sectionA2 img{
+    padding-top: -7px;
+}
+
+ .sectionA2 .button2 button{
+    background-color: #ffffff !important;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-top: 20px;
+    display: table;
+    cursor: pointer;
+    border: 0 none transparent;
+    outline-width: 0;
+    font-style: initial;
+    white-space: nowrap;
+    user-select: none;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 0;
+    align-self: flex-start;
+    color: #fb6f00;
+    text-transform: uppercase;
+
+}
+.sectionA2 .button2 button:hover{
+    color: red;
+}
+.sectionA2 a{
+    text-decoration: none;
+}
+
+ .sectionA3 {
+    background: RGB(252, 154, 76);
+    display: inline-block;
+    
+
+}
+ .sectionA3 img{
+    border-radius: 50%;
+}
+ .sectionA3 h1{
+    color: #ffffff;
+    margin-left: 0;
+    margin-right: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.25rem;
+    margin: 30px 2px 0;
+    line-height: 1.1;
+    padding: 0;
+    display: block;
+}
+.sectionA3 p{
+    font-style: italic;
+    color: white;
+    column-gap: 1em;
+}
+ .sectionA3 .button3 button{
+    background-color: #ffffff !important;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-top: 20px;
+    display: table;
+    cursor: pointer;
+    border: 0 none transparent;
+    outline-width: 0;
+    font-style: initial;
+    white-space: nowrap;
+    user-select: none;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 0;
+    align-self: flex-start;
+    color:  RGB(252, 154, 76);
+    text-transform: uppercase; 
+      
+}
+.sectionA3 .button3 button:hover{
+    color: cyan;
+}
+
+.footer{
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer1{
+    background: RGB(51, 51, 51);
+}
+
+.footer1 p{
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    color: white;
 }
